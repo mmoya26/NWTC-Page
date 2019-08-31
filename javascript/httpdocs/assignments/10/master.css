@@ -1,0 +1,164 @@
+body {
+    font-family: Montserrat;
+    background: rgb(47,71,225); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(47,71,225,1) 0%, rgba(202,29,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f47e1', endColorstr='#ca1de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
+    color: #1D1D1D;
+}
+
+.wrapper {
+    max-width: 85.25rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    -webkit-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+    box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+}
+
+h1 {
+    align-self: center;
+}
+
+.middle-span {
+    align-self: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+a {
+    color: #266994;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF1414;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.06);
+    height: 82px;
+    margin-top: 84px;
+}
+
+#content {
+    display: flex;
+    margin: 50px auto;
+}
+
+.tesla_images {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.image_container {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.roadster {
+    width: 350px;
+    height: 350px;
+}
+
+#first_image {
+    background-image: url(images/tesla_model_s.jpg);
+    background-position-x: -175px;
+}
+#second_image {
+    background-image: url(images/tesla_model_3.jpg);
+    background-position-x: -100px;
+}
+
+#third_image {
+    background-image: url(images/tesla_model_x.jpg);
+}
+
+#fourth_image {
+    background-image: url(images/tesla_model_y.jpeg);
+    background-position-x: -100px;
+}
+
+#roadster_image {
+    background-image: url(images/tesla_roadster.jpg);
+}
+
+.d-flex {
+    display: flex;
+    margin-left: 40px;
+}
+
+.d-flex-c-only {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d-flex-c-only h2 {
+    margin-bottom: 20px;
+}
+
+
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.d-flex-c p, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.lead {
+    margin-top: 10px !important;
+    color: #595758;
+    font-size: 14px;
+}
+
+.info {
+    margin-top: 10px !important;
+    width: 250px;
+}
+
+.info-2 {
+    width: 400px;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+.current {
+    color: #FF1414;
+}
+
+#map-container {
+    width: 800px;
+    height: 300px;
+    align-self: center;
+}

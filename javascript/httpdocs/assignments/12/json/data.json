@@ -1,0 +1,20 @@
+{
+    "champions": [
+        {
+            "name": "Ezreal",
+            "role": "Marksman",
+            "funChampion": "Yes"
+        },
+        
+        {
+            "name": "Udyr",
+            "role": "Jungle",
+            "funChampion": "Yes"
+        },
+        {
+            "name": "Amumu",
+            "role": "Jungle",
+            "funChampion": "No"
+        }
+    ]
+}

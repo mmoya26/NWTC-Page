@@ -1,0 +1,125 @@
+body {
+  font-family:Open sans, sans-serif;  /* Apply open sans font to all of the body if they don't have Open sans, it will then be sans-serif */
+  background-color: #f0f7ee;
+}
+
+#welcome-rectangle {
+  background: linear-gradient(to right, #3f3f3f, #171717);
+  width: 600px;
+  color: white;
+  font-size: 15px;
+  padding: 0 25px;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+#morning-course {
+  background-image: url(../images/morning.jpg);
+  background-repeat: no-repeat;
+}
+
+#afternoon-course {
+  background-image: url(../images/afternoon.jpg);
+  background-repeat: no-repeat;
+}
+
+#evening-course {
+  background-image: url(../images/evening.jpg);
+  background-repeat: no-repeat;
+}
+
+#online-course {
+  background-image: url(../images/online.jpg);
+  background-repeat: no-repeat;
+}
+
+
+ul li {
+    text-align: center;
+	  padding: 63px 50px;
+	  width: 150px;
+	  border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: -10px;
+    list-style: none;
+}
+
+ul li a {
+	font-size: 20px;
+	font-weight: bold;
+	color: #231f20;
+	background-color: #f3ffe1;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	opacity: .7;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+#wrapper-container {
+  padding: 25px;
+  width: 1024px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: auto;
+  background: linear-gradient(to right, #cb356b, #bd3f32);
+  -webkit-box-shadow: 9px 9px 9px -2px rgba(0,0,0,0.65);
+  -moz-box-shadow: 9px 9px 9px -2px rgba(0,0,0,0.65);
+  box-shadow: 9px 9px 9px -2px rgba(0,0,0,0.65);
+}
+
+#choose-message {
+  font-weight: bold;
+  color: white;
+}
+
+#link-home {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 86%;
+}
+
+#link-home:hover {
+    text-decoration: underline;
+}
+
+.info-courses {
+    color: white;
+}
+
+table, tr, td, th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 15px 15px;
+  text-align: center;
+  /* width: 30px; */
+}
+
+table {
+  width: 65%;
+}
+
+thead th {
+   background: linear-gradient(45deg, rgba(133,255,102,1) 0%, rgba(133,255,102,1) 14%, rgba(11,128,102,1) 100%);
+
+}
+
+thead th:hover{
+  background-color: white;
+  color: black;
+}
+
+tbody td:nth-of-type(1) {
+  background-color: #f44242;
+  font-weight: bold;
+}
+
+th::first-letter {
+  color: black;
+}

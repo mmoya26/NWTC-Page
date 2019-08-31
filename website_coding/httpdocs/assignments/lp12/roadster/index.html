@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tesla: Roadster</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../css/master.css" media="screen">
+    <link rel="stylesheet" href="printroadster.css" media="print">
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="screen-container">
+      <div class="content-container">
+        <header id="nav-bar">
+          <div class="logo-image">
+            <a href="../index.html"><img src="../images/teslalogo.png" alt="Tesla Logo" id="tesla-logo-img"></a>
+          </div>
+          <div class="list-links">
+            <ul>
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="../models/index.html">MODEL S</a></li>
+              <li><a href="index.html">ROADSTER</a></li>
+              <li><a href="../testdrive/index.html">TEST DRIVE</a></li>
+              <li><a href="../charge/index.html">CHARGE</a></li>
+              <li><a href="../energy/index.html">ENERGY</a></li>
+            </ul>
+          </div>
+        </header>
+
+        <!-- Start of main content of the page -->
+        <div class="clear"></div>
+        <main class="main-content">
+          <div class="left-column-float">
+            <div class="roadster-desc">
+              <h1>Tesla <span class="red-span">Roadster</span></h1>
+              <p>​The quickest car in the world, with record-setting acceleration, range and performance</p>
+            </div>
+            <div id="roadster-video">
+              <video width="596" height="297" controls poster="../images/roadster-tesla.jpg" id="tesla-roadster-video">
+                <source src="../videos/Roadster.mp4" type="video/mp4">
+                <source src="../videos/Roadster.ogg" type="video/ogg">
+              </video>
+            </div>
+
+            <div class="content-after-vid">
+              <div id="base-specs-title">
+                <h3>Base Specs</h3>
+              </div>
+              <div class="specs-and-info">
+                <table>
+                  <tr>
+                    <td class="first-td-table">Acceleration 0-60 mph</td>
+                    <td class="second-td-table">1.9 sec</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Acceleration 0-100 mph</td>
+                    <td class="second-td-table">4.2 sec</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Top Speed</td>
+                    <td class="second-td-table">Over 250 mph</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Mile Range</td>
+                    <td class="second-td-table">620 Miles</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Seating</td>
+                    <td class="second-td-table">4</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Drive</td>
+                    <td class="second-td-table">All-Wheel Drive</td>
+                  </tr>
+                  <tr>
+                    <td class="first-td-table">Base Price</td>
+                    <td class="second-td-table">$200,000</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="right-column-float">
+            <div class="roadster-reserve shadow">
+              <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <div id="reserve-form-title">
+                  <h3>Reserve now</h3>
+                </div>
+                <div class="margin-top-info">
+                  <label for="fName">First Name</label>
+                  <input type="text" name="fName" id="fName" required>
+                </div>
+                <div class="margin-top-info">
+                  <label for="uEmail">Email Address</label>
+                  <input type="email" name="uEmail" required id="uEmail">
+                </div>
+                <input type="submit" value="SUBMIT" class="btn btn-style shadow" >
+              </form>
+            </div>
+
+            <div id="model-s-box">
+              <div class="model-s-card shadow img-cards">
+                <h3 class="title-cards">MODEL S</h3>
+              </div>
+              <div class="clean-energy-card-text">
+                <p class="p-cards">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+              </div>
+              <div class="clean-energy-card-button">
+                <a href="../models/index.html" class="btn btn-hover shadow">LEARN MORE</a>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <div class="clear"></div>
+        <footer>
+          <p>Copyright &copy; 2018 Miguel Moya</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

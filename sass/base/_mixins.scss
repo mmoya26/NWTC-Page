@@ -1,0 +1,30 @@
+// Shadow for the big white wrapper
+// @mixin box-shadows {
+//     -webkit-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+//     -moz-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+//     box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+// }
+
+// Shadow for the cards
+// @mixin card-shadows {
+//     -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+//     -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+//     box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+// }
+
+// Testing passing parameters to a mixin
+@mixin font-size($size) {
+    font-size: #{$size}rem;
+}
+
+// --------------------------------------------------------------------------------- //
+// $h-length = horizontal lenght, $v-length = vertical length, $color = color of the shadow
+// $blur (optional) = blur of the shadow, $spread = spread radius (default 0)
+// --------------------------------------------------------------------------------- //
+@mixin shadow($h-length, $v-length, $color, $blur: null, $spread: 0) {
+    -webkit-box-shadow: #{$h-length}px #{$v-length}px #{$blur}px #{$spread}px $color;
+    -moz-box-shadow:#{$h-length}px #{$v-length}px #{$blur}px #{$spread}px $color;
+    box-shadow: #{$h-length}px #{$v-length}px #{$blur}px #{$spread}px $color;
+}
+
+

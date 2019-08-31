@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="./js/nicebord.js"></script>
+<link href="./css/nicebord.css" rel="stylesheet" type="text/css" />
+
+<title>NiceBord</title>
+
+</head>
+
+<body>
+
+<div class='row'>
+
+<a href="#" id="first">Nicebord</a>
+
+<a href="#" class="nice">Nicebord</a>
+<a href="#" class="nice">Nicebord Nicebord</a>
+
+</div>
+
+<div class='row'>
+<a href='#' class='aimg'><img src='./images/100.png'/></a>
+<a href='#' class='aimg'><img src='./images/100.png'/></a>
+</div>
+
+<style type="text/css">
+.aimg
+{
+float:left;
+margin:10px;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+	$('#first').nicebord({
+		color: '#000',
+		orientation: 'ackw',
+		size:5,
+		speed:200,
+		direction:true,
+		center:true
+		});
+	
+	$('.nice').nicebord({
+		color: '#000',
+		orientation: 'ackw',
+		size:3,
+		pos:'top,bottom',
+		speed:500
+		});
+	
+	$('.aimg').nicebord({
+		color: '#000',
+		orientation: 'ckw',
+		size:5,
+		speed:200,
+		direction:false,
+		fix:true,
+		center:true
+		});
+});
+</script>
+
+</body>
+</html>

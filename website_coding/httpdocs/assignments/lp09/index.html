@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Lola's Pet Sitting Service: Home</title>
+  </head>
+  <body>
+    <div class="wrapper" id="paw-bottom-center">
+      <div class="heading heading-wrapper">
+        <h1 class="wine-color">Lola's Pet Sitting Service</h1>
+
+        <p class="white-text-heading">"A dog wags its tail with its heart" - Martin Buxbaum</p>
+
+        <h2 class="white-text-heading number-size">920-555-1212</h2>
+      </div>
+
+      <h2 class="wine-color">Welcome</h2>
+
+      <p class="wine-color">Lola's Pet Sitting Service provides you peace of mind while you're away. We will stop in and socialize your pet, go for a walk, groom it, and feed it!</p>
+
+      <a href="index.html"><img src="images/home.png" alt="home button"></a>
+      <a href="walking/index.html"><img src="images/walking.png" alt="walking button"></a>
+      <a href="grooming/index.html"><img src="images/grooming.png" alt="grooming button"></a>
+      <a href="feeding/index.html"><img src="images/feeding.png" alt="feeding button"></a>
+
+      <p class="wine-color">Put your trust in Lola's Pet Sitting Services for your next time away from your pet!</p>
+
+      <a href="index.html">HOME</a>
+      <a href="walking/index.html">WALKING</a>
+      <a href="grooming/index.html">GROOMING</a>
+      <a href="feeding/index.html">FEEDING</a>
+
+      <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <table>
+          <tbody>
+            <tr>
+              <td class="align-titles">CONTACT INFORMATION</td>
+              <td>
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" placeholder="Enter your first name" required>
+                <br>
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName" placeholder="Enter your last name" required>
+                <br>
+                <label for="uEmail">Your Email:</label>
+                <input type="email" name="uEmail" id="uEmail" placeholder="Enter your email" required>
+                <br>
+                <label for="uNumber">Phone Number:</label>
+                <input type="text" name="uNumber" id="uNumber" placeholder="Phone Number" required>
+                <br>
+                <label for="uLocation">Neighborhood Location:</label>
+                <input type="text" name="uLocation" id="uLocation" required>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="align-titles">PET INFORMATION</td>
+              <td>
+                <label for="typePet">Types of Pets:</label>
+                <input type="text" name="typePet" id="typePet">
+                <br>
+                <label for="numberPet">Number Of Pets:</label>
+                <input type="number" name="numberPet" id="numberPet" min="1" max="5">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="align-titles">COMMENTS</td>
+              <td>
+                <textarea name="uComment" rows="8" cols="37 " placeholder="Enter any comment you would like"></textarea>
+              </td>
+            </tr>
+
+            <tr id="radio-buttons">
+              <td class="align-titles">PAYMENT METHOD</td>
+              <td>
+                <label for="inStore">In Store</label>
+                <input type="radio" name="paymentMethod" value="inStore" id="inStore">
+                <br>
+                <label for="online">Online</label>
+                <input type="radio" name="paymentMethod" value="online" id="online">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="align-titles">SELECT TYPE OF SERVICE</td>
+              <td>
+                <select class="" name="typeService">
+                  <option value="typeService">Choose</option>
+                  <option value="Walk">Walk</option>
+                  <option value="Feed">Feed</option>
+                  <option value="Feed And Walk">Feed and Walk</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2">
+                <fieldset>
+                  <legend>Optional Question</legend>
+                  <p>In a scale of 1 to 10, 10 being really good, and 1 being really bad. How much do you like the website design?</p>
+                  1
+                  <input type="range" name="UX-Scale" min="1" max="10">
+                  10
+                </fieldset>
+              </td>
+
+            </tr>
+
+            <tr>
+              <td colspan="2" class="buttons">
+                <input type="reset" value="Clear Form">
+                <input type="submit" value="Submit">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+
+      <footer>
+        <p class="wine-color">Copyright &copy; 2018 Miguel Moya</p>
+      </footer>
+    </div>
+  </body>
+</html>

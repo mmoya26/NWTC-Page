@@ -1,0 +1,11 @@
+header {
+  display: none;
+}
+
+a {
+  display: none;
+}
+
+input[type="submit"] {
+  display: none;
+}

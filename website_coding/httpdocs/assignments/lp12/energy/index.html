@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tesla: Energy</title>
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../css/master.css" media="screen">
+    <link rel="stylesheet" href="printenergy.css" media="print">
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="screen-container">
+      <div class="content-container">
+        <header id="nav-bar">
+          <div class="logo-image">
+            <a href="../index.html"><img src="../images/teslalogo.png" alt="Tesla Logo" id="tesla-logo-img"></a>
+          </div>
+          <div class="list-links">
+            <ul>
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="../models/index.html">MODEL S</a></li>
+              <li><a href="../roadster/index.html">ROADSTER</a></li>
+              <li><a href="../testdrive/index.html">TEST DRIVE</a></li>
+              <li><a href="../charge/index.html">CHARGE</a></li>
+              <li><a href="index.html">ENERGY</a></li>
+            </ul>
+          </div>
+        </header>
+
+        <!-- Start of main content of the page -->
+        <div class="clear"></div>
+        <main class="main-content">
+          <div class="left-column-float">
+            <div id="energy-intro-container">
+              <h1>Produce Your Own Clean Energy</h1>
+              <br>
+              <p>Solar panels produce renewable clean energy while securing low utility rates. Our panels exceed industry standards for durability and lifespan.</p>
+            </div>
+
+            <div id="info-container">
+              <div id="solar-energy">
+                <div id="solar-energy-image" class="shadow"></div>
+                <div id="solar-energy-info">
+                  <h3 class="energy-titles">Solar Produce Clean Energy</h3>
+                  <p class="energy-p">Convert sunlight into clean energy with solar panels on your existing roof, or a brand new Solar Roof.</p>
+                </div>
+              </div>
+
+              <div class="clear"></div>
+
+              <div id="powerwall-energy">
+                <div id="powerwall-info">
+                  <h3 class="energy-titles">Powerwall Store Your Energy</h3>
+                  <p class="energy-p">A home battery designed to store your clean energy, so you can use it anytime you want at night or during an outage.</p>
+                </div>
+                <div id="powerwall-image" class="shadow"></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="right-column-float">
+            <div class="energy-quote shadow">
+              <form id="form-quote" action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <div class="energy-quote-info">
+                  <h3 id="request-quote-title">Request a Quote</h3>
+                  <p id="quote-p">We’ll connect you with a Tesla Energy Advisor to learn more about your custom energy needs</p>
+                </div>
+
+                <div class="user-info-quote">
+                  <div class="margin-top-info">
+                    <label for="fName">First Name</label>
+                    <input type="text" name="fName" required>
+                  </div>
+
+                  <div class="margin-top-info">
+                    <label for="uEmail">Email Address</label>
+                    <input type="email" name="uEmail" required>
+                  </div>
+
+                  <div class="margin-top-info">
+                    <label for="uNumber">Phone Number</label>
+                    <input type="text" name="uNumber" required>
+                  </div>
+
+                  <div class="margin-top-info">
+                    <label for="uPreference">Contact Preference</label>
+                    <select id="select-quote" name="uPreference">
+                      <option value="Phone">Phone</option>
+                      <option value="Email">Email</option>
+                    </select>
+                  </div>
+
+                </div>
+
+                <input type="submit" value="SUBMIT" class="btn btn-quote shadow" id="btn-quote-btn-one">
+                <input type="reset" value="RESET" class="btn btn-quote shadow" id="btn-quote-btn-two">
+              </form>
+            </div>
+          </div>
+        </main>
+
+        <div class="clear"></div>
+        <footer>
+          <p>Copyright &copy; 2018 Miguel Moya</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

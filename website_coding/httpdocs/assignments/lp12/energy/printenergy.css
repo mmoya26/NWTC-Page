@@ -1,0 +1,15 @@
+header {
+  display: none;
+}
+
+a {
+  display: none;
+}
+
+input[type="submit"] {
+  display: none;
+}
+
+input[type="reset"] {
+  display: none;
+}

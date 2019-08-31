@@ -1,0 +1,129 @@
+body {
+    font-family: Montserrat;
+    background: rgb(47,71,225); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(47,71,225,1) 0%, rgba(202,29,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f47e1', endColorstr='#ca1de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
+    color: #1D1D1D;
+}
+
+.wrapper {
+    max-width: 85.25rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    -webkit-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+    box-shadow: 3px 3px 40px 0px rgba(0,0,0,0.35);
+}
+
+h1 {
+    align-self: center;
+}
+
+.active {
+    color: #FF1414;
+}
+
+hr {
+    background-color: #757780;
+    opacity: 0.3;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.middle-span {
+    align-self: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+a {
+    color: #266994;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF1414;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.06);
+    height: 82px;
+    margin-top: 84px;
+}
+
+.d-flex-inline {
+    display: flex;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+#navbar {
+    list-style: none;
+    width: 50%;
+    margin: 30px auto;
+    padding: 0;
+}
+
+.margin-left-30 {
+    margin-left: 30px;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+}
+
+.flex-c {
+    display: flex;
+    flex-flow: column;
+}
+
+form {
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+.header-labels {
+    font-weight: bold;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+.no-js .js-warning {
+    color: white !important;
+    font-weight: bold !important;
+    position: fixed;
+    padding: 200px;
+    margin-left: 200px;
+    background-color: black;
+    margin-top: 200px;
+    z-index: 1;
+    display: block;
+}
+
+.js-warning {
+    display: none;
+}

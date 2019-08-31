@@ -1,0 +1,67 @@
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 2rem;    
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        padding: 25px 20px 25px 20px;
+    }
+
+    .main-content {
+        width: 90%;
+    }   
+}
+
+@media screen and (max-width: 650px) {
+
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size:  1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .card p {
+        font-size: 0.875rem;
+    }
+
+    .card-content {
+        a {
+            width: 100%;
+            display: block;
+            padding: 10px 60px 10px 60px;
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+
+    footer a {
+        font-size: 0.875rem;
+    }
+
+    footer {
+        margin-top: 42px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .card {
+        padding: 20px 15px 20px 15px;
+    }
+
+    footer a {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,958 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Open sans;
+}
+
+.screen-container {
+  width: 1024px;
+  margin: auto;
+  background-color: #FFFFFF; /* Do I even need this? */
+}
+
+.content-container {
+  width: 937px;
+  margin: 20px auto 0;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+  box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.20);
+}
+
+.btn {
+  padding: 13px 23px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: #E33A3A;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: #201C1C;
+}
+
+.p-cards {
+  width: 274px;
+  height: 98px;
+  font-size: 14px;
+  color: #707070;
+  margin-top: 15px;
+}
+
+.img-cards {
+  width: 274px;
+  height: 151px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.title-cards {
+  padding: 59px 51px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+
+/* Start of Header (nav-bar) */
+
+a {
+  text-decoration: none;
+}
+
+#nav-bar {
+  width: 100%;
+}
+
+.logo-image {
+  float: left;
+}
+
+.logo-image img {
+  width: 62px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.list-links {
+  float: left;
+  margin-left: 388px;
+}
+
+.list-links li {
+  float: left;
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.list-links li a {
+  color: #646464;
+  font-weight: bold;
+}
+
+.list-links li a:hover {
+  border-bottom: 2px solid #E33A3A;
+}
+
+/* End of Header (nav-bar) */
+
+.clear {
+  clear: both;
+}
+
+/* Start of Left Column */
+.main-content {
+  margin-top: 60px;
+}
+
+.left-column-float {
+  float: left;
+}
+
+.elon-box {
+  width: 620px;
+  /* background-color: red; */
+}
+
+.elon-box {
+  width: 620px;
+  height: 321px;
+  border-radius: 5px;
+  background: url(../images/elon-talk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#musk-title {
+  color: white;
+  font-size: 22px;
+}
+
+.elon-box-content {
+  margin-top: 50px;
+  margin-right: 32px;
+  float: right;
+}
+
+.elon-box-content p {
+  margin-top: 11px;
+  font-size: 12px;
+  color: white;
+  width: 396px;
+  height: 104px;
+}
+
+.elon-box-content a {
+  display: inline-block;
+  float: right;
+  margin-top: 11px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 13px 23px;
+  border: 1px solid #E33A3A;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.elon-box-content a:hover {
+  background-color: #E33A3A;
+}
+
+/* Tesla Roadster Section */
+
+.tesla-roadster-section {
+  width: 620px;
+  /* background: red; */
+}
+
+.tesla-roadster-image {
+  width: 284px;
+  height: 189px;
+  float: left;
+  background: url(../images/roadster.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.tesla-roadster-section {
+  margin-top: 43px;
+}
+
+.tesla-roadster-info {
+  float: right;
+  margin-top: 45px;
+}
+
+#tesla-roadster-header {
+  font-size: 22px;
+  color: #646464;
+  text-align: center;
+}
+#tesla-roadster-desc {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  width: 317px;
+  height: 39px;
+  color: #646464;
+  text-align: center;
+}
+
+.buttons-roadster {
+  margin-top: 25px;
+}
+
+/* End of Left Column */
+
+
+/* Start of Right Column */
+.right-column-float {
+  float: right;
+}
+
+.tesla-update-box{
+  height: 321px;
+}
+
+.tesla-update-card {
+  background: url(../images/tesla-update.jpg);
+  background-size: cover;
+}
+
+.tesla-update-card-button{
+  margin-top: 10px;
+}
+
+.tesla-update-card-button a {
+  display: inline-block;
+}
+
+/*  Energy box */
+
+.clean-energy-box {
+  margin-top: 41px;
+  height: 321px;
+}
+
+.clean-energy-card {
+  background: url(../images/clean-energy.jpg);
+  background-size: cover;
+}
+
+.clean-energy-card-button{
+  margin-top: 10px;
+}
+
+.clean-energy-card-button a {
+  display: inline-block;
+}
+
+/* End of Right Column */
+
+footer {
+  height: 50px;
+  background-color: rgba(0,0,0,0.05);
+  color: #646464;
+  margin-top: 100px;
+}
+
+footer p {
+  font-size: 12px;
+  width: 173px;
+  margin: auto;
+  padding-top: 17px;
+}
+
+
+/* Model S CSS Page */
+
+/* Start Left Column */
+
+.model-s {
+  width: 600px;
+  height: 313.5px;
+  border-radius: 5px;
+  background: url(../images/MS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#tesla-model-s-title {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#tesla-model-s-words {
+  text-align: center;
+  padding-top: 220px;
+  color: white;
+  font-size: 20px;
+}
+
+.model-s-specs-container {
+  width: 600px;
+  height: 405px;
+  /* border: 2px solid red; */
+  margin-top: 40px;
+}
+
+.model-s-specs-images {
+  width: 206px;
+  height: 116px;
+  border-radius: 5px;
+  float: left;
+}
+
+.awd-model-s {
+  background: url(../images/model-s-winter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.acceleration-model-s {
+  background: url(../images/model-s-range.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-speed-model-s {
+  background: url(../images/model-s-inside.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.acc-box {
+  margin-top: 20px;
+}
+
+.top-speed-box {
+  margin-top: 20px;
+}
+
+.awd-model-s h2 {
+  float: right;
+}
+
+.awd-float {
+  width: 600px;
+  height: 121px;
+}
+
+.model-s-specs-titles {
+  font-size: 20px;
+  color: #E33A3A;
+}
+
+.model-s-specs-p {
+  width: 215px;
+  height: 63px;
+  font-size: 14px;
+  color: #646464;
+  display: inline-block;
+}
+
+.content-margin {
+  float: right;
+  margin: 20px 150px 0 0;
+}
+
+
+/* End LEft Column */
+
+
+/* Start of Right Column */
+
+.form-container {
+  width: 297px;
+  height: 314px;
+  background-color: rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+#form-model-s {
+  padding: 35px 49px;
+
+}
+
+#form-model-s label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #646464;
+}
+
+.input-text-only {
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+}
+
+#form-model-s input[type="submit"] {
+  margin-top: 36px;
+  cursor: pointer;
+  border: none;
+}
+
+#btn-order-now {
+  width: 200px;
+}
+
+#form-email {
+  margin-top: 36px;
+}
+
+
+#model-x-box {
+  margin-top: 41px;
+}
+
+#model-s-box {
+  margin-top: 41px;
+}
+
+#roadster-box {
+  margin-top: 41px;
+}
+
+.model-x-card {
+  width: 297px;
+  height: 151px;
+  border-radius: 5px;
+  background: url(../images/MX.jpg);
+  background-size: cover;
+}
+
+.model-s-card {
+  width: 297px;
+  height: 151px;
+  border-radius: 5px;
+  background: url(../images/MS.jpg);
+  background-size: cover;
+}
+
+.roadster-card {
+  width: 297px;
+  height: 151px;
+  border-radius: 5px;
+  background: url(../images/roadster-tesla.jpg);
+  background-size: cover;
+}
+
+
+/* End of Right Column */
+
+/* End of Model S CSS */
+
+
+
+/* Start of Energy CSS */
+
+/* Start of left column */
+
+#solar-energy {
+  width: 588px;
+}
+
+
+#solar-energy-image {
+  width: 294px;
+  height: 245px;
+  background: url(../images/solar-panels-tesla.jpg);
+  background-size: cover;
+  float: left;
+  border-radius: 5px;
+}
+
+.energy-titles {
+  font-size: 18px;
+  color: #646464;
+}
+
+.energy-p {
+  font-size: 14px;
+  width: 270px;
+  height: 60px;
+  color: #646464;
+  margin-top: 10px;
+}
+
+#solar-energy-info {
+  float: right;
+  margin-top: 90px;
+}
+
+#powerwall-energy {
+  margin-top: 30px;
+}
+
+#powerwall-info {
+  float: left;
+  margin-top: 90px;
+}
+
+#powerwall-image {
+  width: 294px;
+  height: 245px;
+  background: url(../images/powerwall.jpg);
+  background-size: cover;
+  float: right;
+  border-radius: 5px;
+}
+
+/* End of Left Column */
+
+
+/* Start of Right Column */
+
+#info-container {
+  margin-top: 17px;
+}
+
+#energy-intro-container h1 {
+  font-size: 20px;
+  color: #646464;
+  text-align: center;
+}
+
+#energy-intro-container p {
+  font-size: 14px;
+  width: 588px;
+  height: 60px;
+  color: #646464;
+}
+
+.energy-quote {
+  width: 302px;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.energy-quote form {
+  padding: 22px 45px;
+}
+
+#request-quote-title {
+  color: #646464;
+  font-size: 22px;
+
+}
+
+#quote-p {
+  width: 235px;
+  height: 59px;
+  color: #646464;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.energy-quote label {
+  font-size: 14px;
+  color: #646464;
+}
+
+.energy-quote input[type="text"]{
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+  display: block;
+  margin-top: 15px;
+}
+
+.energy-quote input[type="email"] {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.energy-quote  input[type="reset"] {
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+  display: block;
+  margin-top: 15px;
+}
+
+.margin-top-info {
+  margin-top: 26px;
+}
+
+.btn-quote {
+  width: 200px;
+}
+
+#btn-quote-btn-one {
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#btn-quote-btn-two {
+  margin-top: 15px;
+}
+/* End of Right Column */
+
+/* End of Energy  CSS */
+
+/* Start of Roadster CSS */
+
+/* Start of left Column */
+
+.roadster-desc h1 {
+  color: #646464;
+  font-size: 22px;
+  text-align: center;
+}
+
+.roadster-desc p {
+  font-size: 14px;
+  color: #646464;
+  text-align: center;
+}
+
+#roadster-video {
+  margin-top: 20px;
+}
+
+#tesla-roadster-video {
+  border-radius: 5px;
+}
+
+.content-after-vid {
+  margin-top: 35px;
+}
+
+.specs-and-info {
+  margin-top: 20px;
+}
+
+.first-td-table {
+  padding-top: 10px;
+}
+
+.second-td-table {
+  padding-left: 40px;
+}
+
+#base-specs-title {
+  color: #646464;
+  font-size: 22px;
+}
+
+.specs-and-info td{
+  color: #646464;
+  border-bottom: 1px solid #646464;
+}
+
+.red-span {
+  color: #E33A3A;
+}
+
+/* End of Left Column */
+
+/* Start of Right Column */
+
+.roadster-reserve {
+  width: 302px;
+  height: 365px;
+  background-color: rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.roadster-reserve input[type="text"] {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.roadster-reserve input[type="email"] {
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  border: 1px solid #707070;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.roadster-reserve form {
+  padding: 42px 34px;
+}
+
+#reserve-form-title {
+  color: #646464;
+  font-size: 22px;
+  text-align: center;
+}
+
+.btn-style {
+  width: 200px;
+  border: none;
+}
+
+.roadster-reserve input[type="submit"] {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* End of Right Column */
+
+/* End of Roadster CSS */
+
+
+
+/* Start of Test Drive CSS */
+
+/* Start of Left Column */
+
+#test-drive-box-one {
+  width: 596px;
+}
+
+#test-drive-box-two {
+  width: 596px;
+  margin-top: 70px;
+}
+
+#test-drive-image-box-one {
+  width: 283px;
+  height: 179px;
+  background: url(../images/tesla-store.jpg);
+  background-size: cover;
+  float: left;
+  border-radius: 5px;
+}
+
+#test-drive-image-box-two {
+  width: 283px;
+  height: 179px;
+  background: url(../images/associate-store.jpg);
+  background-size: cover;
+  float: left;
+  border-radius: 5px;
+}
+
+.test-drive-boxes-heading {
+  color: #646464;
+  font-size: 14px;
+}
+
+.test-drive-boxes-p {
+  margin-top: 10px;
+  width: 291px;
+  height: 79px;
+  font-size: 14px;
+  color: #646464;
+}
+
+.test-drive-boxes-content {
+  float: right;
+  margin-top: 36px;
+}
+
+/* Sign up */
+
+.test-drive-sign-up-box {
+  margin-top: 40px;
+}
+
+.test-drive-sign-up-box h3 {
+  font-size: 22px;
+  color: #646464;
+  text-align: center;
+}
+
+.test-drive-sign-up-box label {
+  display: block;
+}
+
+.test-drive-sign-up-box input[type="text"]{
+  width: 200px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #707070;
+  margin-top: 10px;
+}
+
+.test-drive-sign-up-box input[type="email"] {
+  width: 200px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #707070;
+  margin-top: 10px;
+}
+
+.btn-test-drive {
+  width: 235px;
+}
+
+.test-drive-float-left {
+  float: left;
+}
+
+.test-drive-float-right {
+  float: right;
+}
+
+#btn-submit-test-drive {
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+  display: block;
+  margin: 40px auto 0;
+}
+
+#center-submit-button {
+  width: 596px;
+}
+
+.test-drive-sign-up-box-content {
+  width: 596px;
+}
+
+#test-drive-phone-box {
+  margin-top: 25px;
+}
+
+#test-drive-zip-box
+{
+  margin-top: 25px;
+}
+
+.test-drive-sign-up-box form {
+  margin-top: 25px;
+}
+
+/* End of Left Column */
+
+/* End of Test Drive CSS */
+
+
+/* Start of Charge CSS */
+
+/* Start of Left Column */
+
+.charge-intro-container h1 {
+  text-align: center;
+  color: #646464;
+  font-size: 20px;
+}
+
+.charge-intro-container-p {
+  width: 558px;
+  height: 41px;
+  color: #646464;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#charge-intro-model-s-image {
+  width: 564px;
+  height: 219px;
+  background: url(../images/model-s-charging.jpg);
+  background-size: cover;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#maps-charge-image-one {
+  width: 247px;
+  height: 187px;
+  background: url(../images/charge-map.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  float: left;
+}
+
+#maps-charge-image-two {
+  width: 247px;
+  height: 187px;
+  background: url(../images/charge-phone.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  float: right;
+}
+
+#maps-and-info-text {
+  float: right;
+  margin-top: 25px;
+}
+
+#control-anywhere-text {
+  float: left;
+  margin-top: 50px;
+}
+
+.go-anywhere-control-anywhere p {
+  width: 272px;
+  height: 99px;
+  color: #646464;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.go-anywhere-control-anywhere h3 {
+  font-size: 18px;
+  color: #646464;
+
+}
+
+.go-anywhere-control-anywhere {
+  width: 564px;
+  margin-top: 40px;
+}
+
+.tesla-mission {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.tesla-mission h3 {
+  color: #646464;
+}
+
+.tesla-mission p {
+  color: #646464;
+  width: 200px;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+ol {
+  list-style-image: url(../images/arrow-list.png);
+  margin-top: 20px;
+}
+
+ol li {
+  padding-left: 20px;
+}
+/* End of Left Column */
+
+/* End of Charge CSS */

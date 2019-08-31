@@ -1,0 +1,15 @@
+{
+    "teslas": [
+        {
+            "model": "Tesla Model S",
+            "subtitle": "The quickest accelaration on earth",
+            "info": "Tesla's all electric powertrain delivers unparalleled performance in all weather conditions with Dual Motor All-Wheel Drive and ludicrous acceleration."
+            
+        },
+        {
+            "model": "Tesla Model 3",
+            "subtitle": "Made with simplicity",
+            "info": "Tesla's most affordable car, with an acceleration of 0 to 60 in as little as 3.2 seconds. Improved handling and aerodynamics allow for a top speed of 162 mph."
+        }
+    ]
+}

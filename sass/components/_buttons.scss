@@ -1,0 +1,20 @@
+.btn {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: $btn-primary-color;
+    padding: 16px 99px;
+
+    &:hover {
+        background-color: $anchor_hoover_color;
+        color: $white;
+    }
+}

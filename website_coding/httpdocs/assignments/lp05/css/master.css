@@ -1,0 +1,35 @@
+body {
+  background-color: #66a3ff;
+  background-image: url(../images/pawprint.png);
+  background-repeat: repeat-y;
+}
+
+.wrapper {
+  padding-left: 72px;
+}
+
+.heading {
+  background-image: url(../images/grass.png)
+}
+
+.heading-wrapper {
+  padding-left: 72px;
+}
+
+.white-text-heading {
+  color: white;
+}
+
+.wine-color {
+  color: #993333;
+}
+
+#paw-bottom-center {
+  background-image: url(../images/pawprint.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.number-size {
+  font-size: 32px;
+}

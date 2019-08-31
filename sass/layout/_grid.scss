@@ -1,0 +1,28 @@
+// El body no va aqui pero bueno.
+body { 
+    font-family: Montserrat;
+    background: rgb(47,71,225); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(47,71,225,1) 0%, rgba(202,29,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(47,71,225,1) 0%,rgba(202,29,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f47e1', endColorstr='#ca1de5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed;
+    color: #1D1D1D;
+}
+
+
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    @include shadow(3, 3, $container-box-shadow, 40);
+}
+
+.main-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    // align-items: flex-start // Align-items problem
+}
